@@ -23,6 +23,7 @@ $result = mysqli_query($dbcon, $sql);
                 <h1 class="text-center">แสดงข้อมูล</h1>
                 <hr>
                 <a href="add_data.php" class="btn btn-primary"> + เพิ่มข้อมูล</a><br><br>
+                <a href="add_data.php" class="btn btn-primary"> + เพิ่มข้อมูล</a><br><br>
                 <?php
                 if (isset($_SESSION['status']) && $_SESSION['status'] != '') {
                 ?>
